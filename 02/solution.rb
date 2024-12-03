@@ -90,7 +90,7 @@ class RedNoseReport
     elsif direction == :descending && diff >= 0
       return :neither
     else
-      direction
+      return direction
     end
   end
 end
